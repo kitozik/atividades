@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Satisfação</title>
+</head>
+<body>
+    <h1>Formulário de Satisfação</h1>
+     <form action="pagina_destino.html" method="post">
+        <section>
+        <p>
+            <label for="#nome">Nome:</label>
+            <input  id="nome" type="text" placeholder="Seu Nome">
+        </p>
+        <p>
+            <label for="#email">E-mail:</label>
+            <input  id="email" type="email" placeholder="Seu E-Mail">
+        </p>
+        <p>
+            <label for="#telefone">Telefone de contato:</label>
+            <input  id="telefone" type="number" placeholder="Seu telefone">
+        </p>
+        <p>
+            Seu estado:
+            <select>
+                <option>ES</option>
+                <option>MG</option>
+                <option>RJ</option>
+                <option>SP</option>
+            </select>
+        </p>
+        </section>
+        <section>
+        <p>
+            <h3>Qual seu nível de satisfação com nosso atendimento?</h3>
+            <input type="radio" id="1" name="atendimento">
+            <label for="#1">1</label>
+            <input type="radio" id="2" name="atendimento">
+            <label for="#2">2</label>
+            <input type="radio" id="3" name="atendimento">
+            <label for="#3">3</label>
+            <input type="radio" id="4" name="atendimento">
+            <label for="#4">4</label>
+            <input type="radio" id="5" name="atendimento">
+            <label for="#5">5</label>
+        </p>
+        <p>
+            <h3>Seu problema foi resolvido?</h3>
+            <input type="radio" id="sim" name="resolução">
+            <label for="#sim">Sim</label>
+            <input type="radio" id="nao" name="resolução">
+            <label for="#nao">Não</label>
+            <input type="radio" id="em-parte" name="resolução">
+            <label for="#em-parte">Parcialmente Resolvido</label>
+        </p>
+        <p>
+            <h3>Algum comentário para nos fazer? (Opcional)</h3>
+            <textarea placeholder="Escreva aqui seu comentário"></textarea>
+        </p>
+        <p>
+            <input type="checkbox" id="termos">
+            <label for="#termos">Aceito os termos de uso das informações</label>
+        </p>
+        </section>
+        <input type="submit" value="Confirmar envio">
+     </form>
+</body>
+</html>
