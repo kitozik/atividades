@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+    background-color: #070818;
+    color: #F2F3FE;
+    font-family: 'sans-serif';
+    line-height: 2.0;
+    }
+
+p{
+    text-indent: 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a{
+    color: #45C4B0;
+}
+
+.summary{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.main p{
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+abbr{
+    font-variant: small-caps;
+}
+
