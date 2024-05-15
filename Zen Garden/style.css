@@ -174,3 +174,44 @@ aside ul li{
 .participation h3{
     align-self: center;
 }
+
+@media screen and (max-width: 768px){
+    .design-selection{
+        line-height: 0.8;
+        position:static;
+        top: 0px;
+        left: 0;
+        width: 100%;
+
+
+    }
+    .explanation {
+        border-right: 0px;
+        width: 100%;
+    }
+    .main p:first-of-type:first-letter{
+        float:none;
+    }
+
+    .participation{
+        flex-direction: column;
+    }
+    .benefits{
+        display:block;
+    }
+    p{
+        text-indent: 0;
+    }
+}
+
+@media print {
+    html{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        color:black;
+    }
+    #zen-intro header{
+        background-color: white;
+        color: black;
+    }
+}
