@@ -1,0 +1,184 @@
+html{
+    text-align: left;
+    font-family: 'sans-serif';
+    line-height: 1.5;
+    width: 80%;
+    max-width: 1280px;
+    margin-left:15%;        
+}
+
+h1{
+    font-weight: bolder;
+}
+
+.cabeçalho{
+    border-bottom: solid 5px #AED3F2;
+}
+.cabeçalho h1{
+    position: absolute;
+    left: 500px;
+    bottom: 850px;
+}
+
+.cabeçalho h3{
+    position: absolute;
+    left: 500px;
+    bottom: 820px;
+}
+
+.cabeçalho p{
+    position: absolute;
+    left: 500px;
+    bottom: 720px;
+    padding-right: 50rem;
+}
+.cabeçalho img{ 
+    display: flex;
+    height: 200px;
+    width: 200px;
+}
+
+.educação{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4rem;
+    border-bottom:   solid 2px #AED3F2;
+}
+
+.educação h1{
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    border-right: solid 2px #AED3F2;
+    
+}
+
+.qualificação h1 {
+    text-align: center;
+}
+.cursos{
+    border: solid 2px #AED3F2;
+    display: flex;
+    justify-content: space-between;
+}
+.iot{
+    padding-left: 15rem;
+    padding-right: 8rem;
+    border-right: solid 2px #AED3F2;
+}
+.inglês{
+    padding-right: 15rem;
+}
+
+.xp h1{
+    text-align: center;
+}
+
+.empresas{
+    border-top: solid 2px #AED3F2;
+    border-bottom: solid 2px #AED3F2;
+}
+
+.vale{
+    border-bottom: #AED3F2 solid 2px;
+}
+
+.lista{
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: solid 2px #AED3F2;
+    position: absolute;
+    left: 760px;
+    bottom: 25px;
+}
+
+.lista2{
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-left: solid 2px #AED3F2;
+    position: absolute;
+    left: 760px;
+    bottom: -158px;
+}
+
+
+.skills h1{
+    border-bottom: #AED3F2 solid 2px;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.skills div{
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.soft-skills{
+    padding-left: 10em;
+
+}
+.soft-skills ul{
+    position: relative;
+    bottom: 25px;
+}
+.soft-skills h2{
+    font-weight: bolder;
+    border-right:#AED3F2 solid 2px ;
+    position: absolute;
+    top:1195px;
+    left: 340px;
+    padding: 1.5rem;
+    
+}
+.hard-skills{
+    padding-left: 20rem;
+}
+
+.hard-skills h2{
+    font-weight: bolder;
+    border-right:#AED3F2 solid 2px ;
+    position: absolute;
+    top:1185px;
+    right: 900px;
+    padding: 2rem;
+    
+}
+
+.hard-skills ul{
+    position: relative;
+    bottom: 12px;
+}
+footer{
+    color:#AED3F2;
+    margin:4%; 
+    font-weight: bolder;     
+    color:#AED3F2;
+    text-align: center;
+}
+
+footer a{
+    text-align: center;
+    color: #AED3F2;
+    border: solid 2px #AED3F2;
+    padding: 0.5em;
+    display: inline;
+    justify-content: space-between;
+}
+
+.linkedin{
+    margin-right: 6rem;
+}
+
+.email{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 6rem;
+}
+
+.github{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width: 748px)
